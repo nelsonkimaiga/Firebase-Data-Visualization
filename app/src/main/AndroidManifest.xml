@@ -30,6 +30,11 @@
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".data"
+            android:label="@string/title_activity_data"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

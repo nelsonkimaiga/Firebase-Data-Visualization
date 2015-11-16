@@ -47,7 +47,7 @@ public class Home extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getBaseContext(),Data.class);
+                Intent intent = new Intent(getBaseContext(),data.class);
                 startActivity(intent);
             }
         });
