@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DataVisualization</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_indicator_view">IndicatorView</string>
+    <string name="title_activity_home">Home</string>
+</resources>

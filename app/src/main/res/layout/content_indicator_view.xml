@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/red">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textSize="30sp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:gravity="bottom"
+        android:layout_marginBottom="66dp"
+        android:layout_above="@+id/avloadingIndicatorView"
+        android:layout_centerHorizontal="true" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avloadingIndicatorView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        android:background="@color/red"
+        app:indicator="BallPulseSync"
+        app:indicator_color="@color/blue"
+        />
+</RelativeLayout>
